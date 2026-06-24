@@ -126,7 +126,7 @@ Both notebooks are designed for **Google Colab**.
 The economic analysis is based on the Italian CER incentive framework:
 
 - **D.M. 414/2023** — sets the GSE incentive tariff for shared energy in Renewable Energy Communities
-- **Base tariff used:** 130 €/MWh
+- **Base tariff used:** 100 €/MWh
 
 ---
 
