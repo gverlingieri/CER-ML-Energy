@@ -21,16 +21,19 @@ This project develops a complete ML pipeline for a Renewable Energy Community of
 ```
 ├── CER_ML_Analysis.ipynb          # Main pipeline: preprocessing, RF model, charts A–F
 ├── CER_Demand_Response.ipynb      # Demand Response simulation and load shifting
+├── requirements.txt               # Pinned Python dependencies
+├── LICENSE                        # MIT License
 ├── data/
 │   ├── cer_consumi_orari.csv      # Hourly smart meter readings (2023, 8 users)
 │   └── cer_members.csv            # Member registry (type, PV system capacity)
-└── outputs/
+├── images/                        # Charts embedded in this README (A, C, D, I)
+└── outputs/                       # Generated at runtime by the notebooks
     ├── cer_dataset_completo.csv   # Full feature-engineered dataset
     ├── cer_energia_condivisa.csv  # CER-level hourly aggregates
     ├── cer_previsioni.csv         # Model forecasts (test set: Sep–Dec)
     ├── cer_impatto_economico.csv  # Economic impact by month and GSE rate
     ├── cer_raccomandazioni_dr.csv # Demand Response recommendations per user
-    └── grafico_*.png              # Output charts (A–F, I)
+    └── grafico_*.png              # Generated charts (A–F, I)
 ```
 
 ---
